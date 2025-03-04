@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
-</head>
+    <head>
+        <link rel="stylesheet" href="styles/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+    </head>
 
-<body>
+    <body>
+        <div class="page-wrap">
+            <div class="left-card">
+                <img src="images/bg-img.jpg" alt="A colorful array as the background">
+                <img src="images/logo-img.jpg" alt="The company logo">
+            </div>
     
-</body>
+            <div class="right-card">
+                <div class="right-card-top">
+                    <p>
+                        !IS IS NOT A REAL ONLINE SERVICE! <br>
+                        Sign up now! You know you want to! This is such a good company website, it's just begging to be signed up for!
+                    </p>
+                    <p>
+                        You <span>know</span> you want to!
+                    </p>
+                </div>
+                
+                <div class="form-wrap">
+                    <form action=".." method="post">
+                        <div>
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" name="firstName">
+                        </div>
+                        
+                        <div>
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="lastName">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="userEmail">
+                        </div>
+
+                        <div>
+                            <label for="tel-num">Phone Number:</label>
+                            <input type="tel" id="tel-num" name="userPhone" placeholder="555-555-5555">
+                        </div>
+
+                        <div>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="userPass">
+                        </div>
+
+                        <div>
+                            <label for="pass-validate">Confirm Password:</label>
+                            <input type="password" id="pass-validate" name="userPassValidate">
+                        </div>
+
+                        <button type="submit">Create Account</button>
+                    </form>
+                </div>
+                
+                <p>
+                    Already have an account? <a href="">Log In</a>
+                </p>
+            </div>
+        </div>
+    </body>
 </html>
