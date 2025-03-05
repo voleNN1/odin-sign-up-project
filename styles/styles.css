@@ -5,3 +5,26 @@
     font-style: normal;
     font-display: swap;
 }
+
+.left-card {
+    position: relative;
+}
+
+#bg-img {
+    height: 100vh;
+    width: 50vw;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    position: absolute;
+    top: 400px;
+    background-color: #262520;
+    opacity: .75;
+}
+
+#logo-img {
+    height: 100px;
+}
