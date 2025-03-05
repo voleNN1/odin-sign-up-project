@@ -53,12 +53,12 @@
 
                         <div>
                             <label for="password">Password:</label>
-                            <input type="password" id="password" name="userPass">
+                            <input type="password" id="password" name="userPass" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
                         </div>
 
                         <div>
                             <label for="pass-validate">Confirm Password:</label>
-                            <input type="password" id="pass-validate" name="userPassValidate">
+                            <input type="password" id="pass-validate" name="userPassValidate" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
                         </div>
 
                         <button type="submit">Create Account</button>
